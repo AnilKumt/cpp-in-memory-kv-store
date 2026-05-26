@@ -1,7 +1,5 @@
 # In-Memory Key-Value Store
 
-> **GitHub Repository Description**: A thread-safe in-memory key-value store built in C++17 using a Radix Trie data structure and shared mutex locks for concurrent reads.
-
 An in-memory key-value store built in C++17. Instead of using a standard hash map, this project uses a Radix Trie as the main data structure. This allows keys to share common prefixes, reducing memory usage for string keys and supporting alphabetical (lexicographical) lookups.
 
 The store is thread-safe and supports concurrent reads, making it suitable for learning core C++ memory management and multithreading concepts.
