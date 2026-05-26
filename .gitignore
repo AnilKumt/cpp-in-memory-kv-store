@@ -1,0 +1,15 @@
+# Build directory
+build/
+
+# Executables & Binaries
+*.exe
+*.out
+*.o
+*.obj
+kv_app
+
+# Log files
+*.log
+
+# Personal repository guide & resume notes
+GITHUB_PUSH_GUIDE.md
